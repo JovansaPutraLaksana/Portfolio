@@ -35,7 +35,7 @@ const Certificates = () => {
       date: "19 Februari 2024 - 20 Desember 2025",
       category: "Akademik",
       icon: "✨",
-      image: "Asdos.png" // <-- Ganti dengan gambarmu
+      image: "Asdos.jpg" // <-- Ganti dengan gambarmu
     },
   ];
 
