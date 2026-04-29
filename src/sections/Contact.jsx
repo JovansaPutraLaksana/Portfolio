@@ -79,7 +79,7 @@ const Contact = () => {
   const contactInfo = [
     { label: 'CODENAME', value: 'JOPUL', icon: '🃏' },
     { label: 'HIDEOUT', value: 'Palembang, Indonesia', icon: '📍' },
-    { label: 'NETWORK', value: 'jovansaputralaksana.my.id', icon: '🌐' },
+    { label: 'NETWORK', value: 'jovansa.vercel.app', icon: '🌐' },
   ];
 
   return (

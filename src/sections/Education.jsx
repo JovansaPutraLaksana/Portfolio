@@ -80,7 +80,7 @@ const Education = () => {
 
               {/* GANTI SRC GAMBAR DI BAWAH INI DENGAN FOTO KAMPUSMU */}
               <img 
-                src="/src/assets/mdp.jpg" 
+                src="mdp.jpg" 
                 alt="University Palace" 
                 className="w-full h-75 md:h-100 object-cover filter grayscale contrast-125 clip-jagged"
               />

@@ -164,7 +164,7 @@ const About = () => {
               
               {/* Ukuran foto sedikit diperbesar di mobile (w-48) agar lebih 'menghantam' */}
               <img 
-                src="/src/assets/profil.jpg" 
+                src="profil.jpg" 
                 alt="Jovansa Putra Laksana" 
                 className="w-48 h-48 md:w-64 md:h-64 object-cover filter grayscale contrast-125 group-hover:grayscale-0 transition-all duration-500 clip-jagged-alt relative z-0"
               />

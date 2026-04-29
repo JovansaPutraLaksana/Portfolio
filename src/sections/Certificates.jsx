@@ -17,7 +17,7 @@ const Certificates = () => {
       date: "2 Maret 2026 - 2 Maret 2029",
       category: "WEB DEVELOPMENT",
       icon: "💻",
-      image: "/src/assets/LSP.png" // <-- Ganti dengan gambarmu
+      image: "LSP.png" // <-- Ganti dengan gambarmu
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Certificates = () => {
       date: "September 2024 - Januari 2025",
       category: "Software ERP",
       icon: "☁️",
-      image: "/src/assets/SAP.png" // <-- Ganti dengan gambarmu
+      image: "SAP.png" // <-- Ganti dengan gambarmu
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const Certificates = () => {
       date: "19 Februari 2024 - 20 Desember 2025",
       category: "Akademik",
       icon: "✨",
-      image: "/src/assets/Asdos.png" // <-- Ganti dengan gambarmu
+      image: "Asdos.png" // <-- Ganti dengan gambarmu
     },
   ];
 

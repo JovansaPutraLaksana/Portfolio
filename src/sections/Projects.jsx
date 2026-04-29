@@ -14,7 +14,7 @@ const projects = [
     status: "SECURED",
     link: "#",
     color: "bg-p5-black",
-    image: "/src/assets/web.png"
+    image: "web.png"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const projects = [
     status: "SECURED",
     link: "https://drive.google.com/drive/folders/1l1ktvJBxqol55QcWd8KD2P-F7WEAk_ZC",
     color: "bg-p5-black",
-    image: "/src/assets/Smart.png"
+    image: "Smart.png"
   },
 ];
 
