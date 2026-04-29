@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palet Warna Persona 5 */
+  --color-p5-red: #D80027;
+  --color-p5-black: #0A0A0A;
+  --color-p5-white: #F4F4F0;
+  --color-p5-gray: #2D2D2D;
+
+  /* Font & Typo */
+  --font-p5: "Impact", "Arial Black", sans-serif;
+  --font-punk: "Courier New", monospace;
+
+  /* Animasi Kustom untuk Transisi Dramatis */
+  --animate-shake: shake 0.5s ease-in-out infinite;
+
+  /* Animasi Glitch Khas Persona */
+  @keyframes glitch {
+    0% { clip-path: inset(20% 0 50% 0); transform: translate(-5px, -2px); }
+    20% { clip-path: inset(80% 0 10% 0); transform: translate(5px, 2px); }
+    40% { clip-path: inset(10% 0 70% 0); transform: translate(-2px, 5px); }
+    60% { clip-path: inset(40% 0 20% 0); transform: translate(2px, -5px); }
+    80% { clip-path: inset(70% 0 5% 0); transform: translate(-5px, 2px); }
+    100% { clip-path: inset(20% 0 50% 0); transform: translate(5px, -2px); }
+  }
+  --animate-glitch: glitch 0.3s steps(2, end) infinite;
+}
+
+/* Base Style: Efek Halftone & Polkadot */
+@layer base {
+  body {
+    background-color: var(--color-p5-white);
+    color: var(--color-p5-black);
+    font-family: var(--font-p5);
+    background-image: radial-gradient(var(--color-p5-gray) 1px, transparent 1px);
+    background-size: 25px 25px;
+    overflow-x: hidden;
+  }
+}
+
+/* Persona 5 Graphic Utilities */
+@utility clip-slash {
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+@utility clip-jagged {
+  clip-path: polygon(2% 0%, 100% 5%, 98% 100%, 0% 95%);
+}
